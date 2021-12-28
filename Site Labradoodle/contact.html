@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr-ca" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- NE PAS TOUCHER -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link href="Navbar.css" rel="stylesheet">
+
+        <!-- 1. Changer le titre pour chaque pages (garder Élevage FIERPET mais changer le mot accueil)-->
+        <title>Élevage FIERPET: Me Contacter</title>
+
+        <!-- 2. C'est ici que vouz pouvez modifier le style de la page au besoin-->
+        <style>
+            #messagebox{
+                margin-top: 10px;
+                padding-top: 10 px;
+            }
+            #form{
+
+            }
+            .Form{
+                width: 50%;
+                font-size: 16pt;
+
+            }
+            .Info{
+                display: inline;
+
+                margin-right: 5%;
+                text-align: justify;
+            }
+            .mapouter{
+                height:525px;
+                width:525px;
+
+            }
+            .gmap_canvas {
+                overflow:hidden;
+                background:none!important;
+                height:525px;
+                width:525px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation bar *À ne pas modifier* ; Changer le "#" par le lien .html de votre page au bon endroit -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="scrollMenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logo" href="index.html"><img src="logo.png" alt="" height="50" width="50"></a>  
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Élevage FIERPET</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="propos.html">À propos</a></li>
+                        <li><a href="activites-evenements.html">Activités/Événements</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nos chiens<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <!-- Insérer le lien de la page des chiens reproducteurs à la place du '#' dans le href-->
+                                <li><a href="chiensReproducteurs.html">Reproducteurs</a></li>
+
+                                <!-- Insérer le lien de la page des chiots à la place du '#' dans le href-->
+                                <li><a href="chiotsavendre.html">Chiots</a></li>
+                            </ul>
+                        </li>
+                        <!-- Insérer le lien de la page "S'inscrire" à la place du '#' dans le href-->
+                        <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+
+                        <!-- Insérer le lien de la page "Nous Contacter" à la place du '#' dans le href-->
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Nous Contacter</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Plus d'informations<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="equipe.html">Notre équipe</a></li>
+
+
+                                <li><a href="temoignages.html">Témoignages</a><li></li>
+
+
+                                <li><a href="installations.html">Nos installations</a></li>
+
+                                <!-- Insérer le lien de la page "FAQ" à la place du '#' dans le href-->
+                                <li><a href="faq.html">FAQ</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Fin de la navbar, Codez dans le contenu au besoin, sinon supprimer la div -->
+        <div id="contenu">
+
+            <h1 style="margin-top: 0px"> Nous Contacter</h1>
+            <div id ="form">
+                <div class="Info" >
+                    <H2> Informations</H2>
+                    Adresse : 945 Chemin Chambly, Longueuil, J4H 3MG
+                   <div> Courriel: diane.bond@cegepmontpetit.ca</div>
+                </div>
+                <form method="POST" action="https://formspree.io/diane.bond@cegepmontpetit.ca">
+                    <input name="email" placeholder="Votre Courriel" type="email" class="Form">
+                    
+                    <div id="messagebox">
+                        <textarea name="message" placeholder="Message" class="Form"></textarea>
+                    </div>
+                </form>
+                
+                <button type="submit">Envoyer le courriel</button>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="525" height="525" id="gmap_canvas" src="https://maps.google.com/maps?q=945%20Chemin%20Chambly%2C%20Longueuil%2C%20J4H%203MG&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>Werbung: 
+                        <a href="https://www.jetzt-drucken-lassen.de">jetzt-drucken-lassen.de</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

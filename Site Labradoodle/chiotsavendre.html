@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr-ca" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- NE PAS TOUCHER -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link href="Navbar.css" rel="stylesheet">
+
+        <!-- 1. Changer le titre pour chaque pages (garder Élevage FIERPET mais changer le mot accueil)-->
+        <title>Élevage FIERPET: Chiots</title>
+
+        <!-- 2. C'est ici que vouz pouvez modifier le style de la page au besoin-->
+        <style>
+            #chiotsavenir{
+                margin-top: 5%;
+            }
+            #ImageWhiskey{
+                margin-left: 2%
+            }
+            .Images{
+                height: 200px;
+                width: 250px;
+                margin-bottom: 2%
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation bar *À ne pas modifier* ; Changer le "#" par le lien .html de votre page au bon endroit -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="scrollMenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logo" href="index.html"><img src="logo.png" alt="" height="50" width="50"></a>  
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Élevage FIERPET</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="propos.html">À propos</a></li>
+                        <li><a href="activites-evenements.html">Activités/Événements</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nos chiens<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <!-- Insérer le lien de la page des chiens reproducteurs à la place du '#' dans le href-->
+                                <li><a href="chiensReproducteurs.html">Reproducteurs</a></li>
+
+                                <!-- Insérer le lien de la page des chiots à la place du '#' dans le href-->
+                                <li><a href="chiotsavendre.html">Chiots</a></li>
+                            </ul>
+                        </li>
+                        <!-- Insérer le lien de la page "S'inscrire" à la place du '#' dans le href-->
+                        <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+
+                        <!-- Insérer le lien de la page "Nous Contacter" à la place du '#' dans le href-->
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Nous Contacter</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Plus d'informations<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="equipe.html">Notre équipe</a></li>
+
+
+                                <li><a href="temoignages.html">Témoignages</a><li></li>
+
+
+                                <li><a href="installations.html">Nos installations</a></li>
+
+                                <!-- Insérer le lien de la page "FAQ" à la place du '#' dans le href-->
+                                <li><a href="faq.html">FAQ</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+        <!-- Fin de la navbar, Codez dans le contenu au besoin, sinon supprimer la div -->
+        <div id="contenu">
+            <div>
+                <div><H2>Présentement disponible</H2></div>
+            <H4>La portée récente de chiots de Réglisse et Roméo (nés le 12 mars) : 4 mâles et 3 femelles de catégorie standard. (1100$ + taxe)</H4>
+            </div>
+            <div id="images">
+                <img src="ChiotAVendre.png" alt="Les Chiots À Vendre" height="10%" width="27%">
+            </div>
+            <div><h2 style="margin-top: 5%">À venir</h2></div>
+            <div>
+                    <h4> portée de chiots de Canelle et Whisky de catégorie moyenne (1100$ + taxe) naîtra autour du 25 avril.</h4>
+                <img src="Images Chiens Reproducteurs/Canelle.png"class="Images"> <img src="Images Chiens Reproducteurs/Whiskey.png" id="ImageWhiskey"class="Images">
+            </div>
+        </div>
+
+    </body>
+</html>

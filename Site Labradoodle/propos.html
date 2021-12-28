@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr-ca" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- NE PAS TOUCHER -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link href="Navbar.css" rel="stylesheet">
+
+        <!-- 1. Changer le titre pour chaque pages (garder Élevage FIERPET mais changer le mot accueil)-->
+        <title>Élevage FIERPET: À propos</title>
+
+        <!-- 2. C'est ici que vouz pouvez modifier le style de la page au besoin-->
+        <style>
+            #contenu {
+                font-size: 16px;
+                padding: 0 30px 5px 30px;
+            }
+            #slogan {
+                font-size: 70px;
+            }   
+            #image {
+                height: 200px;
+                float: left;
+            }
+            .jumbotron {
+                text-align: justify;
+            }
+            b {
+                color: #22b122; 
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Navigation bar *À ne pas modifier* ; Changer le "#" par le lien .html de votre page au bon endroit -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="scrollMenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logo" href="index.html"><img src="logo.png" alt="" height="50" width="50"></a>  
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Élevage FIERPET</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="propos.html">À propos</a></li>
+                        <li><a href="activites-evenements.html">Activités/Événements</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nos chiens<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <!-- Insérer le lien de la page des chiens reproducteurs à la place du '#' dans le href-->
+                                <li><a href="chiensReproducteurs.html">Reproducteurs</a></li>
+
+                                <!-- Insérer le lien de la page des chiots à la place du '#' dans le href-->
+                                <li><a href="chiotsavendre.html">Chiots</a></li>
+                            </ul>
+                        </li>
+                        <!-- Insérer le lien de la page "S'inscrire" à la place du '#' dans le href-->
+                        <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+
+                        <!-- Insérer le lien de la page "Nous Contacter" à la place du '#' dans le href-->
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Nous Contacter</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Plus d'informations<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="equipe.html">Notre équipe</a></li>
+
+
+                                <li><a href="temoignages.html">Témoignages</a><li></li>
+
+
+                                <li><a href="installations.html">Nos installations</a></li>
+
+                                <!-- Insérer le lien de la page "FAQ" à la place du '#' dans le href-->
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Fin de la navbar, Codez dans le contenu au besoin, sinon supprimer la div -->
+        <div id="contenu">
+            <img src="logo.png" id="image">
+            <div class="jumbotron">
+                <h1 id="slogan">Élevage FIERPET</h1><br><br>
+                <div class= container>
+                    <h2><u><b>Notre histoire</b></u></h2>
+                    <p>
+                        L'élevage familial de madame Bond a vite connu du succès. Comme les Labradoodles provenant 
+                        de cet élevage sont en forte demande, les propriétaires ont décidé de transformer leur passion
+                        en devenant des éleveurs professionnels.<br><br>
+                        Tout a commencé en 1999 lorsque la famille s'est procuré un premier chien. La famille a choisi
+                        de faire accoupler leur femelle caniche afin de faire vivre aux enfants la joie de la naissance
+                        d'une portée de chiots. L'expérience fut à ce point appréciée qu'elle fut répétée à maintes reprises.
+                        À la suite des nombreux commentaires de satisfaction des familles ayant adopté un de leurs chiots,
+                        les propriétaires n'ont pu que constaté qu'ils étaient tranquillement devenus un élevage familial.
+                    </p>
+                </div>
+                <div class= container>
+                    <h2><u><b>Nouveautés</b></u></h2>    
+                    <p>
+                        L'élevage FIERPET a maintenant une nouvelle adresse à Longueil. Les nouvelles installations
+                        permettent à tous, chiens comme propriétaires d'avoir une belle qualité de vie. De l'espace
+                        à profusion en dedans comme en dehors pour courir, se développer et se reposer. Les chiens
+                        y sont heureux et sont traités comme des rois. L'élevage dispose maintenant d'une pouponnière
+                        d'une grande salle de jeux, de vastes enclos avec plancers chauffants et les locaux sont 
+                        climatisés pour les temps chauds.
+                    </p>
+                </div>
+                <div class= container>
+                    <h2><u><b>Labradoodles</b></u></h2>
+                    <p>
+                        L'élevage FIERPET est très fier des ses chiots, les <i>Labradoodles</i>. Ces chiens sont
+                        un mélange de caniche et de labrador, deux races réputées pour leur intelligence et leur
+                        amabilité. Ils sont exceptionnels tant par leurs qualités que par leur état de santé. Ils
+                        font de magnifique chiens de famille, fidèles et attachants. De plus, il est maintenant
+                        possible d'adopter des chiots qui auront une taille adulte standard, moyenne ou petite. 
+                        Les chiots sont généralement bruns, noirs, roux, blonds ou grèges(gris-bruns). Leurs
+                        yeux peuvent être bruns ou verts.
+                    </p>
+                </div> 
+                <div class= container>
+                    <p>
+                        Compte tenu de leur popularité, les listes d'attente pour l'adoption d'un chiot
+                        sont toujours pleines.
+                    </p>
+                </div>
+                <div class= container>
+                    <p>
+                        Afin de répondre aux demandes de nos clients, nous offrirons dès le mois de juin
+                        des services de toilettage et des formations de base pour l'éducation et le soin des chiots.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

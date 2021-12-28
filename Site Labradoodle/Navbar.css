@@ -1,0 +1,68 @@
+﻿body {
+    background-color: #111;
+}
+* {
+    font-family: Arial, sans-serif;
+}
+#logo {
+    background-color: #22e122;
+    float: left;
+    margin-right: 10px;
+}
+.dropdown-menu {
+    background-color: #22e122;
+}
+.navbar.navbar-default .navbar-collapse, .dropdown-menu {
+    border: none;
+    box-shadow: none;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #22e122;
+    z-index: 9999;
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+}
+.navbar li a, #scrollMenu:hover,
+#scrollMenu.is-active,
+.navbar .navbar-brand {
+    color: white !important;
+    background-color: #22e122 !important;
+    transition: background-color 0.5s, color 0.5s;
+}
+.navbar-nav li a:hover, #scrollMenu:hover, 
+#scrollMenu.is-active, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #90f090 !important;
+}
+.navbar-default .navbar-toggle {
+    border:none;
+    color: white;
+}
+#scrollMenu .icon-bar {
+    background: white;
+}
+#scrollMenu:hover, #scrollMenu .icon-bar,
+#scrollMenu.is-active {
+    background: white !important;
+}
+#scrollMenu:hover .icon-bar,
+#scrollMenu.is-active .icon-bar {
+    background: #22e122 !important;
+}
+#scrollMenu:focus {
+    background: #22e122;
+}
+#scrollMenu:focus .icon-bar {
+    background: white;
+}
+#contenu {
+    margin: 50px auto 50px auto;
+    width: 80%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #eee;
+    padding: 20px 30px 20px 30px;
+}
